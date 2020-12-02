@@ -7,6 +7,6 @@ Helpers for Adobe Campaign Shell execCommand
 In a workflow Javascript activity, in a WebApp, etc ; use following code:
 
 ```js
-loadLibrary('fco:shell');
-sh.
+loadLibrary('fco:sh');
+sh.exec('pwd');
 ```
